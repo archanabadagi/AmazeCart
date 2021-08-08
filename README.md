@@ -1,6 +1,20 @@
+
 # AMAZECART
 An e-commerce platform which allows to shop and pay across a wide selection of digital products and categories using Django and deployed on Heroku platform.
 
+### Set up
+
+```
+$ pip install requirements.txt
+```
+
+### Migrate Database & Create Super User
+```
+$ python manage.py makemigrations
+$ python manage.py migrate
+$ python manage,py createsuperuser
+```
+---
 ## OBJECTIVES
 •	Creating the product catalog models, adding them to the administration site, and building the basic views to display the catalog
 
